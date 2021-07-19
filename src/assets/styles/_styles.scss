@@ -62,21 +62,21 @@
   }
 
   &.store {
-    background: url('../img/sub_tit1.png');
+    background: url("../img/sub_tit1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   &.event {
-    background: url('../img/sub_tit2.png');
+    background: url("../img/sub_tit2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   &.review {
-    background: url('../img/sub_tit3.png');
+    background: url("../img/sub_tit3.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -278,7 +278,8 @@
       .main_cont_prd_img {
         width: 100%;
         height: 85%;
-        background: url(../img/KakaoTalk_20210601_161404305_02.png) center center;
+        background: url(../img/KakaoTalk_20210601_161404305_02.png) center
+          center;
         background-size: cover;
         display: block;
       }
@@ -292,7 +293,8 @@
     }
   }
 
-  .swiper-button-next, .swiper-button-prev {
+  .swiper-button-next,
+  .swiper-button-prev {
     color: #ccc;
   }
 
@@ -310,7 +312,9 @@
     background: black;
   }
 
-  .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  .swiper-container-horizontal
+    > .swiper-pagination-bullets
+    .swiper-pagination-bullet {
     margin: 0;
   }
 }
@@ -363,7 +367,8 @@
         display: block;
         width: 180px;
         height: 180px;
-        background: url(../img/KakaoTalk_20210622_153204196_18.jpg) center center;
+        background: url(../img/KakaoTalk_20210622_153204196_18.jpg) center
+          center;
         background-size: cover;
       }
 
@@ -551,12 +556,14 @@
         }
 
         &:nth-of-type(3) span {
-          background: url(../img/robert-gomez-YZ0WDjg4EFg-unsplash.jpg) center center;
+          background: url(../img/robert-gomez-YZ0WDjg4EFg-unsplash.jpg) center
+            center;
           background-size: cover;
         }
 
         &:nth-of-type(4) span {
-          background: url(../img/angelo-pantazis-SKKG0gSb4vM-unsplash.jpg) center center;
+          background: url(../img/angelo-pantazis-SKKG0gSb4vM-unsplash.jpg)
+            center center;
           background-size: cover;
         }
 
@@ -661,7 +668,8 @@
         border-bottom: 1px solid #ddd;
 
         dl {
-          dt, dd {
+          dt,
+          dd {
             padding: 20px 0;
           }
 
@@ -675,7 +683,7 @@
               font-weight: bold;
 
               &::before {
-                content: '';
+                content: "";
                 width: 19px;
                 height: 19px;
                 position: absolute;
@@ -686,22 +694,22 @@
             }
 
             .map_icon1::before {
-              background: url('../img/icon/map1.png');
+              background: url("../img/icon/map1.png");
               background-size: cover;
             }
 
             .map_icon2::before {
-              background: url('../img/icon/map2.png');
+              background: url("../img/icon/map2.png");
               background-size: cover;
             }
 
             .map_icon3::before {
-              background: url('../img/icon/map3.png');
+              background: url("../img/icon/map3.png");
               background-size: cover;
             }
 
             .map_icon4::before {
-              background: url('../img/icon/map4.png');
+              background: url("../img/icon/map4.png");
               background-size: cover;
             }
           }
@@ -829,7 +837,8 @@
   }
 
   .main .main_intro .intro_box .intro_desc {
-    h3, span {
+    h3,
+    span {
       text-align: center;
     }
 
@@ -906,11 +915,13 @@
     }
   }
 
-  #event .event_list_wrap, #store .map_wrap {
+  #event .event_list_wrap,
+  #store .map_wrap {
     margin: 40px auto 40px auto;
   }
 
-  #event .event_list_wrap h2, #store .map_wrap h2 {
+  #event .event_list_wrap h2,
+  #store .map_wrap h2 {
     font-size: 20px;
   }
 
