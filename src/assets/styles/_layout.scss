@@ -262,9 +262,18 @@ nav ul li a:hover {
 .footer .footer_icon span {
   display: inline-block;
 }
-.footer .footer_icon span a {
+.footer .footer_icon .instagram a {
   display: inline-block;
-  background: #fff;
+  background: url(../img/icon/instagram.png);
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+  text-indent: -10000px;
+}
+.footer .footer_icon .facebook a {
+  display: inline-block;
+  background: url(../img/icon/facebook.png);
+  background-size: cover;
   width: 32px;
   height: 32px;
   text-indent: -10000px;
@@ -274,4 +283,5 @@ nav ul li a:hover {
   background: #fff;
   width: 32px;
   height: 32px;
+  margin-right: 10px;
 }
