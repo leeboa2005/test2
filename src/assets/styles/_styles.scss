@@ -273,7 +273,7 @@
 
 .main_cont .swiper-slide .main_cont_prd .main_cont_prd_img {
   width: 100%;
-  height: 85%;
+  height: 100%;
   background: url(../img/KakaoTalk_20210601_161404305_02.png) center center;
   background-size: cover;
   display: block;
@@ -315,7 +315,7 @@
 }
 
 .main_cont .swiper-pagination-bullet {
-  width: 25%;
+  width: 20%;
   height: 4px;
   display: inline-block;
   border-radius: 0;
@@ -323,6 +323,14 @@
   opacity: 1;
 }
 
+@media (max-width: 1200px) {
+  .main_cont .swiper-pagination-bullet {
+    width: 18%;
+  }
+  .main_cont .swiper-pagination-bullet {
+    width: 12%;
+  }
+}
 .main_cont .swiper-pagination-bullet-active {
   opacity: 1;
   background: black;

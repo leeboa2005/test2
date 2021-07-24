@@ -127,8 +127,22 @@ function Main() {
                   </p>
                 </div>
                 <Swiper
+                  breakpoints={{
+                    500: {
+                      width: 500,
+                      slidesPerView: 1,
+                    },
+                    640: {
+                      width: 640,
+                      slidesPerView: 1,
+                    },
+                    768: {
+                      width: 768,
+                      slidesPerView: 2,
+                    },
+                  }}
                   slidesPerView={3}
-                  spaceBetween={30}
+                  // spaceBetween={50}
                   navigation={true}
                   pagination={{ clickable: true }}
                   autoplay={{
